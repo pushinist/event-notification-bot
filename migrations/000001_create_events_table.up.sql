@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS events (
+    message_id BIGINT PRIMARY KEY,
+    date TIMESTAMP NOT NULL
+);
